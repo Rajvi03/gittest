@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Employee Details</title>
+
+</head>
+
+<body>
+
+    <h1><u>Employee Details </u></h1>
+    <form>
+        <table aria-label="EmployyeForm">
+            
+            <tr>
+                <th scope="col">
+                    <label for="name">Employee name:</label>
+                </th>
+                <td>
+                    <input type="text" id="name" name="name" value="" required><br><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="age">Employee Age:</label>
+                </td>
+                <td>
+                    <input type="number" id="age" name="age" value="" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender">Gender: </label>
+                </td>
+                <td>
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Male" name="Gender" value="Male">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" name="Gender" value="Female"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Designation">Designation:</label>
+                </td>
+                <td>
+                    <input type="text" id="Designation" name="Designation" value="" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Salary">Salary:</label>
+                </td>
+                <td>
+                    <input type="number" id="Salary" name="Salary" value="" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Location">Location:</label>
+                </td>
+                <td>
+                    <select name="Location" id="Location" required>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Rajkot">Rajkot</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Bhavnagar">Bhavnagar</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email Id:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Email">Email Id:</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Date">Date Of joining:</label>
+                </td>
+                <td>
+                    <input type="Date" id="Date" name="Date" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Contact">Contact number:</label>
+                </td>
+                <td>
+                    <input type="text" id="Contact" name="Contact" pattern="[0-9]{5}[0-9]{5}" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="submit" name="submit" value="Submit">
+                </td>
+                <td>
+                    <input type="reset" id="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
